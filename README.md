@@ -7,7 +7,7 @@ operators:
  !  - not
  =  - iff
  -> - if
- >< - exclusive or (XOr)
+ \>< - exclusive or (XOr)
 
 here is an example expression: (!a|(b&a))><c
 
