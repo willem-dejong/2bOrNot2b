@@ -1,0 +1,27 @@
+﻿<Window x:Class="_2bn2b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:_2bn2b"
+        Title="2b||!2b" Height="350" Width="525">
+    <Grid>
+        <TabControl HorizontalAlignment="Stretch" Name="tabControl1" VerticalAlignment="Stretch">
+            <TabItem Header="truth settings" Name="set">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <Grid>
+                        <Label Content="Expression:" Height="28" HorizontalAlignment="Left" Margin="14,30,0,0" Name="label1" VerticalAlignment="Top" />
+                        <TextBox HorizontalAlignment="Left" Margin="86,34,0,0" Name="expBox" Width="291" TextAlignment="Left" BorderBrush="Black" Height="23" VerticalAlignment="Top" />
+                        <TextBox Height="23" HorizontalAlignment="Left" Margin="86,63,0,0" Name="numVBox" VerticalAlignment="Top" Width="42" TextAlignment="Left" IsEnabled="False" BorderBrush="Black"/>
+                        <Label Content="# of var.:" Height="28" HorizontalAlignment="Left" Margin="27,59,0,0" Name="label2" VerticalAlignment="Top" />
+                        <Label Content="variables:" Height="28" HorizontalAlignment="Left" Margin="134,59,0,0" Name="label3" VerticalAlignment="Top" />
+                        <TextBox Height="23" HorizontalAlignment="Left" Margin="199,63,0,0" Name="LV" VerticalAlignment="Top" Width="178" TextAlignment="Left" IsEnabled="False" BorderBrush="Black"/>
+                        <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="383,34,0,0" Name="submit" VerticalAlignment="Top" Width="75" Click="submit_Click"/>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="truth table" Name="tabletab">
+                <custom:tableData x:Name="table" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                </custom:tableData>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
