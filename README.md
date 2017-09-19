@@ -1,7 +1,8 @@
 # 2bOrNot2b
 a logic truth table generator
 in the expression field enter your logical expression.
-operators:\n
+operators:
+
  &  - and
  |  - or
  !  - not
