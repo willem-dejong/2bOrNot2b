@@ -3,15 +3,15 @@ a logic truth table generator
 in the expression field enter your logical expression.
 operators:
 
-> &  - and
+> &   - and
  
-> |  - or
+> |   - or
  
-> !  - not
+> !   - not
  
-> =  - iff
+> =   - iff
  
-> -> - if
+> ->  - if
  
 > \>< - exclusive or (XOr)
 
