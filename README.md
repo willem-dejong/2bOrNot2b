@@ -2,12 +2,12 @@
 a logic truth table generator
 in the expression field enter your logical expression.
 operators:
-&  - and
-|  - or
-!  - not
-=  - iff
--> - if
->< - exclusive or (XOr)
+ &  - and
+ |  - or
+ !  - not
+ =  - iff
+ -> - if
+ >< - exclusive or (XOr)
 
 here is an example expression: (!a|(b&a))><c
 
