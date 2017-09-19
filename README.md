@@ -1,13 +1,13 @@
 # 2bOrNot2b
 a logic truth table generator
 in the expression field enter your logical expression.
-operators:
+operators:\n
  &  - and
  |  - or
  !  - not
  =  - iff
  -> - if
- \>< - exclusive or (XOr)
+ >< - exclusive or (XOr)
 
 here is an example expression: (!a|(b&a))><c
 
